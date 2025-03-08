@@ -1,0 +1,33 @@
+## Markdown-editor-frontend Ignore
+
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/markdown-editor-frontend/node_modules
+/markdown-editor-frontend/.pnp
+/markdown-editor-frontend/.pnp.js
+/markdown-editor-frontend/package-lock.json
+
+# testing
+/markdown-editor-frontend/coverage
+
+# production
+/markdown-editor-frontend/build
+
+# misc
+/markdown-editor-frontend/.DS_Store
+/markdown-editor-frontend/.env.local
+/markdown-editor-frontend/.env.development.local
+/markdown-editor-frontend/.env.test.local
+/markdown-editor-frontend/.env.production.local
+
+/markdown-editor-frontend/npm-debug.log*
+/markdown-editor-frontend/yarn-debug.log*
+/markdown-editor-frontend/yarn-error.log*
+
+## Markdown-editor-backend ignore
+
+/markdown-editor-backend/dist
+/markdown-editor-backend/coverage
+/markdown-editor-backend/node_modules
+/markdown-editor-frontend/package-lock.json

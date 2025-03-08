@@ -1,0 +1,30 @@
+html, body {
+  color: #333;
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+  font-family: Helvetica, arial, freesans, clean, sans-serif;
+  font-size: 0.75em;
+  line-height: 1em;
+  overscroll-behavior-y: none;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  height:100vh;
+}
+
+/* Reduce font size for mobile screens */
+@media screen and (max-width: 768px) {
+  body {
+      font-size: medium !important;
+  }
+}
+
+/* Further reduce for very small screens */
+@media screen and (max-width: 480px) {
+  body {
+      font-size:xx-small !important;
+  }
+}

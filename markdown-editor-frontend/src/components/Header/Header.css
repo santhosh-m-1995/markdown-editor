@@ -1,0 +1,57 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 16px;
+    width: 100%;
+    background-color: #444;
+    color: #fff;
+}
+
+header a:link,
+header a:hover,
+header a:visited,
+header a:active,
+.link-button {
+    color: #fff;
+    background: none;
+    border: none;
+    text-decoration: none;
+}
+
+header a:hover,
+.link-button:hover {
+    text-decoration: underline;
+}
+
+#menu-items {
+    display: flex;
+}
+
+#reset-button {
+    margin-left: 16px;
+}
+
+#copy-button {
+    margin-left: 16px;
+}
+
+.icons {
+    display: flex;
+    gap: 10px;
+}
+
+.circle-icon {
+    width: 20px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background: none;
+    border: none;
+    text-decoration: none;
+    background-color: white;
+    color: black !important;
+}
+
