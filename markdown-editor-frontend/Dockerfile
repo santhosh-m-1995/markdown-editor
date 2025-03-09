@@ -11,8 +11,8 @@ RUN npm config set registry "https://registry.npmjs.org/" && npm install
 # Copy the entire application
 COPY . .
 
-# Build the React app
-RUN npm run build
+# Test & Build the React app
+RUN npm run test && npm run build
 
 # Stage 2: Production Stage
 FROM node:20-slim

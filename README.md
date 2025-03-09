@@ -5,6 +5,8 @@
 - **React.js**: v19
 - **Express.js**: v4.21.2
 - **Swagger**: v5.0.1
+- **Jest**: v29.7.0
+- **TypeScript**: v5.8.2
 
 ---
 
@@ -28,6 +30,11 @@ REACT_APP_API_BASE_URL = "http://localhost:5000/api"
 REACT_APP_PORT=3000
 ```
 
+### Test Command
+```bash
+npm run test
+```
+
 ### Docker Commands
 ```bash
 sudo docker build -t markdown-editor-frontend:1.0.0 .
@@ -46,6 +53,11 @@ sudo docker run -dp 3000:3000 markdown-editor-frontend:1.0.0
 PORT=5000
 ENV=development
 SWAGGERENABLE=true
+```
+
+### Test Command
+```bash
+npm run test
 ```
 
 ### Docker Commands
