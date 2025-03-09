@@ -11,8 +11,8 @@ RUN npm install
 # Copy the rest of the application
 COPY . .
 
-# Build TypeScript files
-RUN npm run build
+# Test & Build TypeScript files
+RUN npm run test && npm run build
 
 # Expose the desired port (adjust if needed)
 EXPOSE 5000
